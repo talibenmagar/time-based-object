@@ -1,0 +1,28 @@
+{
+  "name": "time-based-object",
+  "version": "1.0.0",
+  "description": "Time based object, is built to auto discard stale / unused keys in your object. If you have an object you are managing with a timer in order to dispose of orphan items, this package is for you.",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talibenmagar/time-based-object.git"
+  },
+  "keywords": [
+    "[\"time\"",
+    "\"object\"",
+    "\"dispose\"",
+    "\"unused\"]"
+  ],
+  "author": "Tali Rosh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/talibenmagar/time-based-object/issues"
+  },
+  "homepage": "https://github.com/talibenmagar/time-based-object#readme"
+}
