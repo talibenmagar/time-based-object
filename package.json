@@ -14,10 +14,10 @@
     "url": "git+https://github.com/talibenmagar/time-based-object.git"
   },
   "keywords": [
-    "[\"time\"",
-    "\"object\"",
-    "\"dispose\"",
-    "\"unused\"]"
+    "time",
+    "object",
+    "dispose",
+    "unused"
   ],
   "author": "Tali Rosh",
   "license": "ISC",
