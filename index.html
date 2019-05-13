@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script type="text/javascript" src="../index.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0 auto;
+    width: 50%;
+      }
+      /* Ripple effect */
+.ripple {
+  background-position: center;
+  transition: background 0.8s;
+}
+.ripple:hover {
+  background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+}
+.ripple:active {
+  background-color: #6eb9f7;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+/* Button style */
+button {
+  border: none;
+  border-radius: 2px;
+  padding: 12px 18px;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: white;
+  background-color: #2196f3;
+  box-shadow: 0 0 4px #999;
+  outline: none;
+}
+    </style>
+    <p>
+      This example demonstrate how we dispose unused objects. 
+      <p>We have 2 based time objects with time limit of 2 seconds. We init the objects with random items.</p>
+      Every 1 second, we update just the 5 first keys of the first object (repeatedly).
+    </p>
+    <button class='ripple' onclick="start()">Check now</button>
+    <button class='ripple' onclick="stop()">Clear</button>
+    <p id="test1"></p>
+    <p id="test2"></p>
+  </body>
+</html>
